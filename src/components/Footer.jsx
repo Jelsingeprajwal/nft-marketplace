@@ -9,7 +9,7 @@ import {
 
 function Footer() {
   return (
-    <div className="md:px-[72px] lg:px-[115px] md:py-[50px] lg:py-[40px] bg-gray text-white font-workSans md:h-full lg:h-[334px]">
+    <div className="md:px-[72px] lg:px-[115px] md:py-[50px] lg:py-[40px] bg-gray text-white font-workSans md:h-full lg:h-[334px] ">
       <div className="flex gap-8 md:flex-col lg:flex-row ">
         <div className="w-[327px]">
           <div className="flex w-[238px] flex-col gap-[30px]">
@@ -75,7 +75,11 @@ function Footer() {
         <hr />
         <span className="text-xs ">
           &copy; NFT Market. Template by{" "}
-          <a href="https://www.figma.com/@anima" className="font-semibold">
+          <a
+            href="https://www.figma.com/@anima"
+            className="font-semibold"
+            target={"_blank"}
+          >
             Anima
           </a>
           .

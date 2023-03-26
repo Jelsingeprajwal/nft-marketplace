@@ -20,15 +20,16 @@ function SubscribeWidget() {
             {" "}
             Get exclusive promotions & updates straight to your inbox.
           </p>
-          <div className="flex lg:flex-row md:flex-col relative  w-[300px] h-[60px] gap-4">
+          <div className="flex lg:flex-row md:flex-col relative  md:w-[300px] lg:w-[425px] lg:h-[60px] gap-4">
             <input
               type="text"
               placeholder="enter your email here"
-              className="w-full p-5 rounded-[20px] md:h-[46px]"
+              className="w-full p-5 rounded-[20px] md:h-[46px] lg:h-[60px]"
             />
             <button
               type="button"
-              className="lg:absolute  md:w-[300px] md:py-6 md:flex md:justify-center md:items-center  z-10 md:h-[46px] lg:h-[60px] bg-cta rounded-[20px] w-[221px] right-0 "
+              className="lg:absolute  md:w-[300px] md:py-6 md:flex md:justify-center 
+              md:items-center  z-10 md:h-[46px] lg:h-[60px] bg-cta rounded-[20px] lg:w-[221px] right-0 "
             >
               Subscribe
             </button>
