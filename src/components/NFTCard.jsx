@@ -2,9 +2,13 @@ import React from "react";
 
 function NFTCard({ title, artistName, image, avatar }) {
   return (
-    <div className="flex flex-col gap-[15px] w-[330px] h-[469px]  rounded-[20px] bg-gray">
+    <div className="flex flex-col gap-[15px] w-full md:w-[330px] h-[402px] md:h-[469px]  rounded-[20px] bg-gray">
       <div>
-        <img className="w-[330px] h-[296px]" src={image} alt="image" />
+        <img
+          className="w-full md:w-[330px] h-[238px] md:h-[296px]"
+          src={image}
+          alt="image"
+        />
       </div>
       <div className="flex flex-col gap-[25px]  h-[100px] justify-between ">
         <div className="mx-[30px] ">

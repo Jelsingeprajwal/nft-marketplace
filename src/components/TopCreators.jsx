@@ -81,13 +81,13 @@ function TopCreators() {
     },
   ]);
   return (
-    <section className="md:px-[72px] lg:px-[115px] md:py-[40px] lg:py-[80px] bg-bgPrimary text-white font-workSans">
-      <div className="flex w-full justify-between items-end">
+    <section className="md:px-[72px] lg:px-[115px] md:py-[40px] lg:py-[80px] px-[30px] py-[40px] bg-bgPrimary text-white font-workSans max-w-[1280px] lg:mx-auto">
+      <div className="flex w-full md:flex-row flex-col  justify-between md:items-end">
         <div className="flex flex-col gap-[10] md:w-[343px]">
-          <h4 className="font-semibold md:leading-[140%] lg:leading-[120%] md:text-[28px] lg:text-[38px] ">
+          <h4 className="font-semibold md:leading-[140%] lg:leading-[120%] text-[28px] lg:text-[38px] ">
             Top creators
           </h4>
-          <span className="md:text-[16px] lg:text-[22px] md:leading-[140%] lg:leading-[160%]">
+          <span className="md:text-[16px] lg:text-[22px] leading-[140%] lg:leading-[160%]">
             Checkout Top Rated Creators on the NFT Marketplace
           </span>
         </div>
@@ -95,11 +95,13 @@ function TopCreators() {
           <Button
             text="View Ranking"
             icon={RocketLaunch}
-            class={"font-normal bg-transparent px-[50px] border-cta border-2"}
+            class={
+              "font-normal bg-transparent px-[50px] hidden md:flex border-cta border-2"
+            }
           />
         </div>
       </div>
-      <div className="grid  md:grid-cols-2 lg:grid-cols-4 gap-[30px] mt-[60px]">
+      <div className="grid  md:grid-cols-2 lg:grid-cols-4 gap-[30px] mt-[40px] md:mt-[60px]">
         {artistDetails.map((data, index) => (
           <ArtistCard
             key={index}
@@ -109,6 +111,15 @@ function TopCreators() {
             sales="34.53 ETH"
           />
         ))}
+      </div>
+      <div>
+        <Button
+          text="View Ranking"
+          icon={RocketLaunch}
+          class={
+            "font-normal bg-transparent px-[50px] mt-[40px] w-full  md:hidden flex border-cta border-2"
+          }
+        />
       </div>
     </section>
   );

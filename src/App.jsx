@@ -13,11 +13,12 @@ import {
 } from "./pages/index";
 function App() {
   return (
-    <div className="max-w-[1280px] lg:mx-auto">
+    <div className="">
       <BrowserRouter>
         <Navbar />
         <Routes>
           <Route index path="/" element={<HomePage />} />
+          <Route index path="/create-account" element={<CreateAcc />} />
           <Route path="/rankings" element={<RankingsPage />} />
           <Route path="/createwallet" element={<CreateWallet />} />
         </Routes>

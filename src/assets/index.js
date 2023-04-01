@@ -82,6 +82,10 @@ import setupWallet from "./setupwallet.png";
 import createCollection from "./createcollection.png";
 import startEarning from "./startearning.png";
 import astronaut from "./astronaut.png";
+import artistPageBg from "./artistpagebg.png";
+import NFTPageBg from "./NFTpagebg.png";
+import signUpBg from "./signupbg.png";
+import connectWalletBg from "./connectwalletbg.png";
 
 export {
   ArrowLeft,
@@ -168,4 +172,8 @@ export {
   createCollection,
   startEarning,
   astronaut,
+  artistPageBg,
+  NFTPageBg,
+  signUpBg,
+  connectWalletBg,
 };

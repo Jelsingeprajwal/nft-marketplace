@@ -21,14 +21,14 @@ import CategoryCard from "./CategoryCard";
 
 function Categories() {
   return (
-    <section className="md:px-[72px] lg:px-[115px] md:py-[40px] lg:py-[80px] bg-bgPrimary text-white font-workSans">
+    <section className="md:px-[72px] lg:px-[115px] md:py-[40px] lg:py-[80px] px-[30px] py-[40px] bg-bgPrimary text-white font-workSans max-w-[1280px] lg:mx-auto">
       <div className="">
         <div>
-          <h1 className="md:text-[22px] lg:text-[38px] font-semibold leading-[45px]">
+          <h1 className="text-[28px] md:text-[22px] lg:text-[38px] font-semibold leading-[45px]">
             Browse Categories
           </h1>
         </div>
-        <div className="grid grid-cols-4 gap-[30px] mt-[60px]">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-[30px] mt-[40px] md:mt-[60px]">
           <CategoryCard image={image3} title={"Art"} icon={PaintBrush} />
           <CategoryCard
             image={image23}

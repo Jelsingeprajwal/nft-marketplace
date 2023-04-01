@@ -17,20 +17,20 @@ import {
 
 function Trending() {
   return (
-    <section className="md:px-[72px] lg:px-[115px] md:py-[40px] lg:py-[80px] bg-bgPrimary text-white font-workSans">
+    <section className="md:px-[72px] lg:px-[115px] md:py-[40px] lg:py-[80px] px-[30px] py-[40px] bg-bgPrimary text-white font-workSans max-w-[1280px] lg:mx-auto">
       <div className="md:min-w-[690px]">
         <div>
           <div className="flex flex-col gap-[10px] w-full ">
-            <h4 className="md:text-[28px] lg:text-[38px] font-semibold md:leading-[160%] lg:leading-[120%]">
+            <h4 className="text-[28px] leading-[140%] lg:text-[38px] font-semibold md:leading-[160%] lg:leading-[120%]">
               Trending Collection
             </h4>
-            <p className="text-[22px] md:leading-[140%] lg:leading-[160%]">
+            <p className=" md:text-[22px] md:leading-[140%] lg:leading-[160%]">
               Checkout our weekly updated trending collection.
             </p>
           </div>
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]
-          mt-[60px]
+           mt-[40px] md:mt-[60px]
           "
           >
             <CollectionCard

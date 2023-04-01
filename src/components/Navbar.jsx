@@ -5,7 +5,7 @@ import { Button } from "../components/index";
 function Navbar() {
   return (
     <>
-      <nav className="flex flex-1 w-full justify-between  pr-[50px] pl-[50px]  bg-bgPrimary  text-white   pt-5 pb-5 ">
+      <nav className="flex flex-1 w-full justify-between px-[30px]  md:pr-[50px] md:pl-[50px]  bg-bgPrimary  text-white   pt-5 pb-5 max-w-[1280px] lg:mx-auto">
         <Link
           to={"/"}
           className="font-spaceMono flex justify-center items-center w-[200px] "
@@ -25,7 +25,12 @@ function Navbar() {
               <Link to="/createwallet">Connect a wallet</Link>
             </li>
           </ul>
-          <Button class={"w-[90%] md:w-[152px]  "} icon={User} text="Sign Up" />
+          <Button
+            class={"w-[90%] md:w-[152px]  "}
+            icon={User}
+            text="Sign Up"
+            to={"create-account"}
+          />
         </div>
         <img src={List} alt="" className="lg:hidden cursor-pointer " />
       </nav>
