@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ArtistCard({ avatar, id, artistName, sales }) {
   return (
-    <div className="lg:w-[240px] lg:h-[238px] h-[100px] bg-gray rounded-[20px] flex md:flex-row gap-5 lg:gap-0   p-5 lg:p-0 lg:flex-col relative">
+    <Link to={"/artistpage"} className="lg:w-[240px] lg:h-[238px] h-[100px] bg-gray rounded-[20px] flex md:flex-row gap-5 lg:gap-0   p-5 lg:p-0 lg:flex-col relative">
       <div className=" flex  justify-center  items-center">
         <img
           className="lg:mt-[20px] w-[60px] h-[60px] lg:w-[120px] lg:h-[120px]"
@@ -22,7 +23,7 @@ function ArtistCard({ avatar, id, artistName, sales }) {
           <span className="font-spaceMono">{sales}</span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

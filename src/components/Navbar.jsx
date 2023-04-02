@@ -22,7 +22,7 @@ function Navbar() {
               <Link to={"/rankings"}>Rankings</Link>
             </li>
             <li className="flex pr-[30px] pl-[30px]">
-              <Link to="/createwallet">Connect a wallet</Link>
+              <Link to="/connectwallet">Connect a wallet</Link>
             </li>
           </ul>
           <Button

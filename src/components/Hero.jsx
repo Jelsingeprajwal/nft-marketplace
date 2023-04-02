@@ -1,6 +1,7 @@
 import React from "react";
 import { avatar14, RocketLaunch, heroImageBg } from "../assets/index";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -18,7 +19,7 @@ function Hero() {
             sell art from more than 20k NFT artists.
           </p>
           {/* Mobile View Right Section */}
-          <div className=" md:hidden mt-[40px] w-[315px] h-[315px] bg-gray  rounded-[20px] ">
+          <Link to={"/artistpage"} className="flex flex-col md:hidden mt-[40px] w-[315px] h-[315px] bg-gray  rounded-[20px] ">
             <div className="">
               <img
                 className="h-[206px] w-full object-cover rounded-t-[20px]"
@@ -39,7 +40,7 @@ function Hero() {
                 <span className="">Animakid</span>
               </span>
             </div>
-          </div>
+          </Link>
           {/*  */}
           <Button
             icon={RocketLaunch}
@@ -66,7 +67,8 @@ function Hero() {
         </div>
 
         {/* Right Section */}
-        <div className="hidden md:block md:w-[330px] lg:w-[510px]  md:h-[330px] lg:h-[330px] bg-gray  rounded-[20px] ">
+        <Link
+          to={"/artistpage"} className="hidden md:block md:w-[330px]  lg:w-[510px]  md:h-[330px] lg:h-[330px] bg-gray  rounded-[20px] ">
           <div className="">
             <img
               className="md:h-[221px] lg:h-[401px] md:w-[330px] lg:w-[510px] rounded-t-[20px]"
@@ -87,7 +89,7 @@ function Hero() {
               <span className="">Animakid</span>
             </span>
           </div>
-        </div>
+        </Link>
       </div>
     </section>
   );
