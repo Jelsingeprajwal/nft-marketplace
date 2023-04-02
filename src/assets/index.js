@@ -77,9 +77,6 @@ import image20 from "./image-20.png";
 import image21 from "./image-21.png";
 import image22 from "./image-22.png";
 import image23 from "./image-23.png";
-import image24 from "./image-24.png";
-import image25 from "./image-25.png";
-import image26 from "./image-26.png";
 import NFTHighlight from "./NFT-Highlight.png";
 import setupWallet from "./setupwallet.png";
 import createCollection from "./createcollection.png";
@@ -170,9 +167,6 @@ export {
   image21,
   image22,
   image23,
-  image24,
-  image25,
-  image26,
   NFTHighlight,
   setupWallet,
   createCollection,

@@ -1,7 +1,6 @@
 import React from "react";
 import { avatar7, Eye, NFTHighlight as bg } from "../assets";
 import Button from "./Button";
-import { Link } from "react-router-dom";
 function NFTHighlight() {
   return (
     <div
@@ -12,10 +11,10 @@ function NFTHighlight() {
 
       <div className="z-50 md:h-[220px]  flex md:flex-row flex-col max-w-[1280px] lg:mx-auto  gap-[30px] md:items-end justify-between absolute md:bottom-[60px] mt-[120px] md:mt-0   left-[30px] md:left-[115px] right-[115px] ">
         <div className="flex flex-col  gap-[30px] ">
-          <Link to={"/artistpage"} className="flex gap-[12px] w-fit px-[20px] py-[10px] rounded-[20px] bg-bgPrimary">
+          <div className="flex gap-[12px] w-fit px-[20px] py-[10px] rounded-[20px] bg-bgPrimary">
             <img src={avatar7} className="w-[24px] h-[24px]" alt="" />
             <span className="">Shroomi</span>
-          </Link>
+          </div>
           <h1 className="text-[28px] font-bold md:text-[38px] lg:text-[51px] leading-[110%]">
             Magic Mushrooms
           </h1>
@@ -41,7 +40,6 @@ function NFTHighlight() {
         </div>
         <Button
           icon={Eye}
-          to={"/nftpage"}
           class="bg-white text-black   md:hidden w-[315px] "
           text="See NFT"
         />

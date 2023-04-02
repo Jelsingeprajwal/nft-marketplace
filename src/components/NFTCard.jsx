@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-function NFTCard({ title, artistName, image, avatar, className }) {
+function NFTCard({ title, artistName, image, avatar }) {
   return (
-    <div className={"flex flex-col gap-[15px] w-full max-w-[315px] lg:max-w-[330px] md:w-[330px] h-[402px] md:h-[469px]  rounded-[20px] " + className}>
+    <div className="flex flex-col gap-[15px] w-full md:w-[330px] h-[402px] md:h-[469px]  rounded-[20px] bg-gray">
       <div>
         <img
           className="w-full md:w-[330px] h-[238px] md:h-[296px]"

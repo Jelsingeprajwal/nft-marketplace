@@ -10,7 +10,6 @@ import {
 } from "../assets";
 import Button from "./Button";
 import NFTCard from "./NFTCard";
-import { Link } from "react-router-dom";
 function DiscoverMoreNft() {
   return (
     <div className="md:px-[72px] lg:px-[115px] md:py-[40px] lg:py-[80px] px-[30px] py-[40px] bg-bgPrimary text-white font-workSans max-w-[1280px] lg:mx-auto">
@@ -38,36 +37,32 @@ function DiscoverMoreNft() {
           mt-[40px] md:mt-[60px]
           "
       >
-        <Link to={'/nftpage'}>
+        <div>
           <NFTCard
             title={"Distant Gallaxy"}
             artistName={"MoonDancer"}
             avatar={avatar16}
             image={image16}
-            className={"bg-gray"}
           />
-        </Link>
-        <Link to={'/nftpage'}>
+        </div>
+        <div>
           <NFTCard
             title={"Life on Edena"}
             artistName={"NebulaKid"}
             avatar={avatar10}
             image={image21}
-            className={"bg-gray"}
           />
-        </Link>
-        <Link to={'/nftpage'}>
+        </div>
+        <div>
           <NFTCard
             title={"AstroFiction"}
             artistName={"Spaceone"}
             avatar={avatar20}
             image={image4}
-            className={"bg-gray"}
           />
-        </Link>
+        </div>
       </div>
       <Button
-
         text="See all"
         icon={Eye}
         class={
