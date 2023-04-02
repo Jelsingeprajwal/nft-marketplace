@@ -19,7 +19,6 @@ import NFTCard from "./NFTCard";
 import NFTCardSection from "./NFTCardSection";
 import NFTImgPlaceholder from "./NFTImgPlaceholder";
 import RankingList from "./RankingList";
-import RankingTabBar from "./RankingTabBar";
 import TabBar from "./TabBar";
 import TopCreators from "./TopCreators";
 import Trending from "./Trending";
@@ -48,7 +47,6 @@ export {
   NFTCardSection,
   NFTImgPlaceholder,
   RankingList,
-  RankingTabBar,
   TabBar,
   TopCreators,
   Trending,

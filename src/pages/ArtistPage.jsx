@@ -110,65 +110,67 @@ function ArtistPage() {
                     </div>
                 </div>
             </div>
-            <div
-                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] md:px-[72px] lg:px-[115px]  py-[30px] px-[30px] bg-gray md:py-[80px]
-                border-b
+            <div className="bg-gray">
+                <div
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] md:px-[72px] lg:px-[115px]  py-[30px] px-[30px] bg-gray md:py-[80px]
+                border-b max-w-[1280px] mx-auto
           "
-            >
-                <Link to={'/nftpage'}>
-                    <NFTCard
-                        title={"Distant Gallaxy"}
-                        artistName={"MoonDancer"}
-                        avatar={avatar16}
-                        image={image16}
-                        className={"bg-bgPrimary"}
-                    />
-                </Link>
-                <Link to={'/nftpage'}>
-                    <NFTCard
-                        title={"Life on Edena"}
-                        artistName={"NebulaKid"}
-                        avatar={avatar10}
-                        image={image21}
-                        className={"bg-bgPrimary"}
-                    />
-                </Link>
-                <Link to={'/nftpage'}>
-                    <NFTCard
-                        title={"AstroFiction"}
-                        artistName={"Spaceone"}
-                        avatar={avatar20}
-                        image={image4}
-                        className={"bg-bgPrimary"}
-                    />
-                </Link>
-                <Link to={'/nftpage'}>
-                    <NFTCard
-                        title={"AstroFiction"}
-                        artistName={"Spaceone"}
-                        avatar={avatar20}
-                        image={image24} ssss
-                        className={"bg-bgPrimary"}
-                    />
-                </Link>
-                <Link to={'/nftpage'}>
-                    <NFTCard
-                        title={"AstroFiction"}
-                        artistName={"Spaceone"}
-                        avatar={avatar20}
-                        image={image25}
-                        className={"bg-bgPrimary"}
-                    />
-                </Link>
-                <Link to={'/nftpage'}>
-                    <NFTCard
-                        title={"AstroFiction"}
-                        artistName={"Spaceone"}
-                        avatar={avatar20}
-                        image={image26}
-                        className={"bg-bgPrimary"}
-                    />
-                </Link>
+                >
+                    <Link to={'/nftpage'}>
+                        <NFTCard
+                            title={"Distant Gallaxy"}
+                            artistName={"MoonDancer"}
+                            avatar={avatar16}
+                            image={image16}
+                            className={"bg-bgPrimary"}
+                        />
+                    </Link>
+                    <Link to={'/nftpage'}>
+                        <NFTCard
+                            title={"Life on Edena"}
+                            artistName={"NebulaKid"}
+                            avatar={avatar10}
+                            image={image21}
+                            className={"bg-bgPrimary"}
+                        />
+                    </Link>
+                    <Link to={'/nftpage'}>
+                        <NFTCard
+                            title={"AstroFiction"}
+                            artistName={"Spaceone"}
+                            avatar={avatar20}
+                            image={image4}
+                            className={"bg-bgPrimary"}
+                        />
+                    </Link>
+                    <Link to={'/nftpage'}>
+                        <NFTCard
+                            title={"AstroFiction"}
+                            artistName={"Spaceone"}
+                            avatar={avatar20}
+                            image={image24} ssss
+                            className={"bg-bgPrimary"}
+                        />
+                    </Link>
+                    <Link to={'/nftpage'}>
+                        <NFTCard
+                            title={"AstroFiction"}
+                            artistName={"Spaceone"}
+                            avatar={avatar20}
+                            image={image25}
+                            className={"bg-bgPrimary"}
+                        />
+                    </Link>
+                    <Link to={'/nftpage'}>
+                        <NFTCard
+                            title={"AstroFiction"}
+                            artistName={"Spaceone"}
+                            avatar={avatar20}
+                            image={image26}
+                            className={"bg-bgPrimary"}
+                        />
+                    </Link>
+                </div>
             </div>
             <Footer />
         </section>

@@ -78,7 +78,7 @@ function MarketPlace() {
         }
     ]
     return (
-        <section className='  bg-bgPrimary text-white  font-workSans'>
+        <section className=' bg-bgPrimary text-white  font-workSans'>
 
 
             <div className='w-full flex flex-col h-[263px] md:h-[288px] lg:h-[351px] gap-[30px] py-[40px] px-[30px] md:py-[60px] md:px-[77px] lg:py-[80px] lg:px-[115px] max-w-[1280px] lg:mx-auto'>

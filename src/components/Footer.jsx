@@ -6,6 +6,7 @@ import {
   TwitterLogo,
   YoutubeLogo,
 } from "../assets";
+import { Link } from "react-router-dom";
 
 function Footer() {
   const [email, setEmail] = useState("");
@@ -44,9 +45,9 @@ function Footer() {
           <div className="w-[240px] flex flex-col gap-6 ">
             <h1 className="text-[22px] leading-[160%] font-bold">Explore</h1>
             <div className="flex flex-col gap-5 opacity-80">
-              <span>Marketplace</span>
-              <span>Ranking</span>
-              <span>Connect a wallet</span>
+              <Link to={"/marketplace"}>Marketplace</Link>
+              <Link to={"/rankings"}>Ranking</Link>
+              <Link to={"/connectwallet"}>Connect a wallet</Link>
             </div>
           </div>
           <div className="w-[420px] flex flex-col gap-6">
