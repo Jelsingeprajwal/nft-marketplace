@@ -12,7 +12,7 @@ function Footer() {
   return (
     <div className="md:px-[72px] lg:px-[115px] px-[30px] py-[40px] bg-gray text-white font-workSans md:h-full">
       <div className="max-w-[1280px] lg:mx-auto">
-        <div className="flex gap-8 flex-col lg:flex-row">
+        <div className="flex gap-8 flex-col lg:flex-row justify-between">
           <div className="w-[327px]">
             <div className="flex w-[238px] flex-col gap-[30px]">
               <img src={Logo} alt="" />

@@ -16,7 +16,7 @@ function Navbar() {
           <ul className=" text-base list-none flex justify-center items-center">
             <li className="flex pr-[30px] pl-[30px] ">
               {" "}
-              <Link to={"marketplace"}>Marketplace</Link>{" "}
+              <Link to={"/marketplace"}>Marketplace</Link>{" "}
             </li>
             <li className="flex pr-[30px] pl-[30px] ">
               <Link to={"/rankings"}>Rankings</Link>

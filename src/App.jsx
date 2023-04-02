@@ -25,6 +25,7 @@ function App() {
           <Route path="/connectwallet" element={<ConnectWallet />} />
           <Route path="/artistpage" element={<ArtistPage />} />
           <Route path="/nftpage" element={<NFTPage />} />
+          <Route path="/marketplace" element={<MarketPlace />} />
         </Routes>
       </BrowserRouter>
     </div>
